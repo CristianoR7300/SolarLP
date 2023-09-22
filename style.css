@@ -719,8 +719,10 @@ textarea:valid~label{
     .box-b {
       text-align: center;
     }
-    .h3 {
-      margin-left: auto;
+    .box-text {
+      margin-left: 30px;
+    }
+  }
     .about__solar5{
         font-size: 30px;
         background-position: auto;
