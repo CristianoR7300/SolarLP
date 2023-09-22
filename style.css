@@ -715,6 +715,11 @@ textarea:valid~label{
       text-align: center;
     }
   }
+  @media (min-width: 768px) {
+    .box-b {
+      text-align: center;
+    }
+  }
     .about__solar5{
         font-size: 30px;
         background-position: auto;
