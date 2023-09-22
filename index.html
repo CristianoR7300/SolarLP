@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b8e1b5b9db.js" crossorigin="anonymous"></script>
+    <title>Starbucks</title>
+</head>
+<body>
+    <nav class="navbar">      
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <a href="index.html">
+                    <img src="assets/logo-CONNECTCWB.svg" alt="" /> 
+                </a>
+            </div>
+            <ul class="navbar-nav-left">
+                <li>
+                    <a href="#first">Como funciona energia Solar</a>
+                </li>
+                <li>
+                    <a href="#second">Nossos Serviços</a>
+                </li>
+                <li>
+                    <a href="#third">Quem Somos</a>
+                </li>
+                <li>
+                  <a href="#thirdOne">Fale consoco</a>
+              </li>
+                <li>
+                  <a href="#fourth">Redes Sociais</a>
+              </li>
+              </ul>              
+              
+                
+            <!--Hambuger Menu-->
+            <button type="button" class="hamburger" id="menu-btn">
+            <!-- <span class="open">
+                <a href="#" onclick="openSlideMenu()"></a> -->           
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+             
+            </button>
+        </div>
+    </nav>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden" id="menu">     
+      
+        <ul>
+          <li>
+            <a onclick="goToItem('first')">Como funciona energia Solar</a>
+          </li>
+          <li>
+            <a onclick="goToItem('second')">Nossos Serviços</a>
+          </li>
+          <li>
+            <a onclick="goToItem('third')">Quem Somos</a>
+          </li>
+          <li>
+            <a onclick="goToItem('thirdOne')">Fale consoco</a>
+          </li>
+          <li>
+            <a onclick="goToItem('fourth')">Redes Sociais</a>
+        </li>
+        </ul>
+  
+           
+       
+      </div>
+  
+    <!-- Box A-->
+    <section class="box-a bg-primary grid-col-2 ">
+        <img src="./assets/bg_solar4.png" alt="solar"  />
+        <div class="box-text">
+            <h2 class="text-lg">Porque ter <br/> ENERGIA SOLAR..</h2>
+            <p class="text-md">
+                Reduza sua conta de luz em até 95%. <br/>
+                Imune contra novos aumentos de tarifa. <br/>
+                Possibilidade de compartilhar com vários imóveis. <br/>
+                Valorização média de 20% do seu imóvel. <br/>
+                Vida útil superior a 25 anos. <br/>
+                Fonte de energia sustentável. <br/>
+                Monitoramento ‘’online’’ da produção de energia. <br/>
+            </p>
+        </div>
+    </section>
+
+    <!-- Box B-->
+    <section class="box-b bg-plus grid-col-2 grid-reversed">
+        <img src="./assets/casa.png"  width="550" height="480" />
+        <div class="box-text">
+            <h2 id="first" class="box-b__title" >COMO FUNCIONA ENERGIA SOLAR </h2>
+           
+            <h3 >MÓDULOS FOTOVOLTAICOS:</h3>
+            <p>
+                a radiação solar incide sobre as <br/>
+                células fotovoltaicas do painel e é <br/>
+                convertida em eletricidade, em corrente continua.
+            </p>
+            <h3>INVERSOR:</h3>
+            <p>
+                converte a eletricidade de corrente continua <br/>
+                para corrente alternada (padrão da rede elétrica)<br/>
+                para que passa ser consumida no imóvel ou fornecida<br/>
+                à Distribuidora de Energia
+            </p>     
+            <h3>ENERGIA PRODUZIDA:</h3>
+            <p>
+               é consumida no imóvel e a excedente<br/>
+               é fornecida para a rede da distribuidora<br/>
+               automaticamente, gerando créditos para você usar<br/>
+               à noite ou em dias muito chuvosos.
+
+            </p>                 
+        </div>
+    </section>
+
+    
+    <!-- Box C-->
+    <section class="feature" >
+      <div class="feature__content container container--pall bg-plus ">   
+        <div class="feature__intro">
+          <h2 id="second">NOSSOS SERVIÇOS</h2>
+
+          <div class="feature__grid">
+            <div class="feature__item">
+              <div class="feature__icon">
+                <img src="./assets/icon_genEner.png" alt=""></div>
+              <div class="feature__title">GERAÇÃO DE ENERGIA</div>
+              <div class="feature__description">
+                Estruturamos as melhores 
+                soluções para produção de energia
+                de fontes renováveis, alinhado com
+                a estratégia de negócio de cada
+                cliente.
+              </div>
+            </div>
+
+            <div class="feature__item">
+              <div class="feature__icon">
+                <img src="./assets/icon_eneEle.png" alt="">
+              </div>
+              <div class="feature__title">ENERGIA ELÉTRICA</div>
+              <div class="feature__description">
+                Elaboramos projetos de instalações
+                elétricas de baixa e média tensão, de
+                aterramento e SPDA (proteção contra
+                descargas atmosféricas). Além do
+                comissionamento e manutenção
+                de usinas geradas fotovoltaicas
+                e subestações de energia.
+
+              </div>
+            </div>
+
+            <div class="feature__item">
+              <div class="feature__icon">
+                <img src="./assets/icon_efeEner.png" alt="">
+              </div>
+              <div class="feature__title">EFICIÊNCIA ENERGÉTICA</div>
+              <div class="feature__description">
+                Otimizamos o consumo de energia
+                nos ativos elétricos e nas unidades
+                consumidora dos nossos clientes
+                em todo território nacional.
+
+              </div>
+            </div>
+
+            <div class="feature__item">
+              <div class="feature__icon">
+                <img src="./assets/icon_comEner.png" alt=""></div>
+              <div class="feature__title">COMERCIALIZAÇÃO DE ENERGIA</div>
+              <div class="feature__description">
+                Elaboramos a estratégia para o 
+                suprimento de energia em linha com 
+                as necessidades especificas de cada 
+                cliente, bem como a estruturação
+                pela busca dos melhores fornecedores 
+                e preços
+              </div>
+            </div>
+
+            <div class="feature__item">
+              <div class="feature__icon">
+                <img src="./assets/icon_mobEle.png" alt=""></div>
+              <div class="feature__title">MOBILIDADE ELÉTRICA</div>
+              <div class="feature__description">
+                Provemos a infra estrutura elétrica 
+                para pontos de recarga inteligente 
+                de veículos elétricos (automóveis,
+                patinetes e bicicletas).
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+    </section>
+    
+    <!-- Box D-->
+    <section class="box-d bg-secondary container container--pall about__solar5">                     
+            <div class="text_box-d">
+                <h2 id="third">Quem somos</h2>
+                <p>
+                    A Connect é uma empresa brasileira com amplo conhecimento e experiência em sistemas  de energia fotovoltaica com sede em Ribeirão Preto. Estamos no mercado de energia solar desde 2016 e já instalamos mais de 8 MIL sistemas  através de 
+                    nossos   100 franqueados ativos em todo o território nacional.
+                    Conquistamos o selo de Agente Autorizado Elgin, uma empresa sólida por seus mais de  71 anos de
+                    mercado e atualmente o principal fornecedor de equipamentos de energia  solar do Brasil. 
+                </p>            
+            </div>        
+    </section>
+
+    <div class="hero">     
+
+      <form >
+        <span class="contato" id="thirdOne">Fale conosco preenchendo o formulário abaixo ou clicando no icone WhatsApp</span>
+        
+      <div class="input-group">        
+        <input type="text" id="Nome" required>
+        <label for="name"><i class="fa-solid fa-user"></i> Qual seu nome?</label>
+       </div>
+       <div class="input-group">
+        <input type="text" id="telefone" required>
+        <label for="telefone"><i class="fa-solid fa-phone"></i> Informe seu telefone</label>
+       </div>      
+       <div class="input-group">
+        <input type="email  " id="email" required>
+        <label for="email"><i class="fa-solid fa-envelope"></i> Insira seu email</label>
+       </div>
+       <div class="input-group">
+        <textarea id="mensagem" rows="9"></textarea>
+        <label for="mensagem"><i class="fa-regular fa-message"></i> Como posso lhe ajudar?</label>
+       </div>
+       <button type="submit">ENVIAR <i class="fa-solid fa-paper-plane"></i></button>      
+  
+      </form>
+    
+    
+    </div>  
+   
+
+  <div class="divider"></div>  
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="social" id="fourth">
+              <a href="#">
+              <img src="./assets/facebook.svg" alt="" />
+              </a>          
+              <a href="#">
+              <img src="./assets/instagram.svg" alt="" />
+              </a>              
+            </div>
+            <p>© 2023 CRG. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!--WhatsApp-->
+    <a href="https://api.whatsapp.com/send?phone5541988811414&text=Quero%20mais%20informa%C3%A7%C3%B5es%20sober%20energia%20solar!" 
+      class="btn-whatsapp"
+      target="_blank">                         
+        <img src="./assets/whatssappGreen.svg"   alt="Botão WhatsApp" />
+          <span class="tooltip-text">Entre em contato conosco</span>
+    </a>          
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
